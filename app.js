@@ -2,8 +2,8 @@ var twit = require('twitter');
 var config = require('./config.js');
 var base = new twit(config);
 var params = {
-    q: "@google",
-    count: 4,
+    q: "", // enter usernames like @elonmusk, @narendramodi or hash tags like #hack, #hacker
+    count: 12,
 }
 base.get('search/tweets', params, function(err, data, response){
     if(!err){
