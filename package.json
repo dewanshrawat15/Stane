@@ -1,5 +1,5 @@
 {
-  "name": "stane",
+  "name": "Stane",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,12 +11,15 @@
     "url": "git+https://github.com/dewanshrawat15/Stane.git"
   },
   "author": "Dewansh Rawat",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dewanshrawat15/Stane/issues"
   },
   "homepage": "https://github.com/dewanshrawat15/Stane#readme",
   "dependencies": {
     "twitter": "^1.7.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
